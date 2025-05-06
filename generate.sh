@@ -1,4 +1,12 @@
+Инструкция:
+1) Создать public репозиторий на github.com
+2) Добавить файл generate.sh с кодом (Код ниже)
+3) Скопировать RAW ссылку на generate.sh
+4) bash <(wget -qO- ССЫЛКАизТРЕТЬЕГОпункта)
+5) Открыть и вставить эту команду в debian (https://terminator.aeza.net/en/)
+6) Скопировать конфиг и добавить в hiddify
 
+Код для generate.sh:
 
 #!/bin/bash
 
