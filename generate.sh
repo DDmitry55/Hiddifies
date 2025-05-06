@@ -55,3 +55,8 @@ EOM
 # Вывод готового JSON
 echo "${json_conf}"
 [ -t 1 ] && echo "########### КОНЕЦ КОНФИГА ###########"
+
+
+echo "\"reserved\": \"${reserved64}\","
+echo "\"reserved\": \"${reservedHex}\","
+echo "\"reserved\": \"${reservedDec}\","
