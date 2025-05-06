@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 clear
@@ -50,3 +51,12 @@ json_conf=$(cat <<-EOM
 }
 EOM
 )
+[ -t 1 ] && echo "########## НАЧАЛО КОНФИГА ##########"
+# Вывод готового JSON
+echo "${json_conf}"
+[ -t 1 ] && echo "########### КОНЕЦ КОНФИГА ###########"
+
+
+echo "\"reserved\": \"${reserved64}\","
+echo "\"reserved\": \"${reservedHex}\","
+echo "\"reserved\": \"${reservedDec}\","
